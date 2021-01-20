@@ -23,13 +23,17 @@ _This is a detailed description of your application. Give as much detail as need
 ## Tests 
 
 Describe: isLeapYear()
-Test: "Returns a value of false when year is not a leap year"
-Expect: (isLeapYear(1993)).toEqual(false)
+Test: "It returns a value of false when year is not a leap year"
+Expect: (isLeapYear(1993)).toEqual(false);
+
+Test: "It returns a value of true when a year is evenly divisible by 4"
+Expect: (isLeapYear(2004)).toEqual(true);
 
 ## Known Bugs
 
 * _Any known issues_
 * _should go here_
+
 
 ## License
 *[MIT](https://choosealicense.com/licenses/mit/)*
