@@ -32,6 +32,9 @@ Expect: (isLeapYear(2004)).toEqual(true);
 Test: "It returns a value of false when a year is evenly divisible by 100"
 Expect: (isLeapYear(1900)).toEqual(false);
 
+Test: "It returns a value of true when a year is evenly divisible by 400"
+Expect: (isLeapYear(2000)).toEqual(true);
+
 ## Known Bugs
 
 * _Any known issues_
